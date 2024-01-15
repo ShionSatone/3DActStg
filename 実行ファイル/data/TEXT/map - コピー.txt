@@ -1,0 +1,1480 @@
+#=======================================================================
+#
+# マップ配置情報ファイル [map.txt]
+# Author;佐藤根詩音
+#
+#=======================================================================
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 13
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/map/mark.x				# [0]目印
+MODEL_FILENAME = data/MODEL/map/edge.x				# [1]四角い壁(横)
+MODEL_FILENAME = data/MODEL/map/cylinder.x				# [2]円の範囲
+MODEL_FILENAME = data/MODEL/map/sand.x				# [3]砂ブロック
+MODEL_FILENAME = data/MODEL/map/rock00.x				# [4]岩ブロック
+MODEL_FILENAME = data/MODEL/map/soil.x				# [5]土ブロック
+MODEL_FILENAME = data/MODEL/map/grass00.x				# [6]草ブロック
+MODEL_FILENAME = data/MODEL/map/underwater.x				# [7]水中の壁
+MODEL_FILENAME = data/MODEL/map/wall01.x				# [8]四角い壁(縦)
+MODEL_FILENAME = data/MODEL/map/switch.x				# [9]投影切り替えスイッチ
+MODEL_FILENAME = data/MODEL/map/rock01.x				# [10]岩連結ブロック
+MODEL_FILENAME = data/MODEL/map/sand01.x				# [11]砂横連結ブロック
+MODEL_FILENAME = data/MODEL/map/sand02.x				# [12]砂縦連結ブロック
+
+#------------------------------------------------------------------------------
+# モデル配置情報
+#------------------------------------------------------------------------------
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2005.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2064.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2121.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2180.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2240.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2299.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 58.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 114.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 171.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 230.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 288.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1205.0 115.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1268.0 115.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1328.0 115.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1456.0 201.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1512.0 201.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1574.0 201.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1859.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1917.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1976.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2035.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2094.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2149.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2212.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2272.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 142.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 200.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 261.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 88.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 25.0 61.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 1492.0 4.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 1554.0 4.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 1615.0 4.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3254.0 158.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3284.0 158.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3313.0 158.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 130.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 193.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 225.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 256.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 288.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 288.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 352.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3713.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3746.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3777.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3810.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3841.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3871.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3902.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3935.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3968.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3997.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4029.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4062.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4093.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4123.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4156.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4189.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4219.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4251.0 352.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 3.0 55.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 36.0 55.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3894.0 64.0 54.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4020.0 203.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4020.0 171.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4020.0 41.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4020.0 10.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4020.0 -21.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4020.0 64.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3987.0 64.0 53.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3955.0 64.0 53.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3925.0 64.0 53.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3930.0 96.0 53.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3930.0 127.0 53.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4052.0 203.0 42.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4084.0 203.0 42.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4117.0 203.0 42.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4150.0 203.0 42.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4181.0 203.0 42.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4051.0 64.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4084.0 31.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4117.0 -1.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4305.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4337.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4369.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4400.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4431.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4462.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4492.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4524.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4555.0 202.0 51.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4586.0 202.0 51.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 4775.0 202.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5156.0 3.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5156.0 67.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5156.0 131.0 84.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5707.0 3.0 84.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5644.0 3.0 84.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5581.0 3.0 84.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5456.0 3.0 84.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5520.0 3.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5647.0 130.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5711.0 193.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5711.0 130.0 80.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5583.0 130.0 80.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5521.0 130.0 80.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5922.0 193.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5922.0 129.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5922.0 68.0 82.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5922.0 4.0 82.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5922.0 255.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5922.0 318.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6259.0 230.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6289.0 230.0 48.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6320.0 230.0 48.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6350.0 230.0 48.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6381.0 230.0 48.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6410.0 230.0 48.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6441.0 230.0 48.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 6022.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 5770.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 5518.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 5265.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 5010.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 4326.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 4074.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 3820.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 3566.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 3314.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 3071.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 2819.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 2565.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 2310.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 2055.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 1801.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 1549.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 1295.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 1042.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 1094.0 3.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 6538.0 -60.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6473.0 230.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6505.0 230.0 52.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6537.0 230.0 52.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6568.0 230.0 52.0
+END_MODELSET
+
+MODELSET
+	INDEX = 10						# モデル番号
+	POS = 6599.0 230.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 6538.0 67.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 6602.0 -61.0 90.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 6666.0 -60.0 90.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 6730.0 -60.0 90.0
+END_MODELSET
+
+MODELSET
+	INDEX = 10						# モデル番号
+	POS = 6260.0 -95.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 6898.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 6962.0 -61.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 6962.0 62.0 119.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 6962.0 190.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5583.0 67.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 5093.0 3.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 1009.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 4691.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 4953.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 4734.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3863.0 64.0 55.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3833.0 64.0 55.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3804.0 64.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3804.0 33.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3804.0 2.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 68.0 55.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 101.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 162.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 2577.0 0.0 62.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1947.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1888.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1829.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1798.0 148.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 1679.0 4.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1544.0 201.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1483.0 201.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1298.0 115.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 1236.0 115.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 369.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 623.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7024.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7088.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7152.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7214.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7276.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7337.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7401.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7463.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7463.0 2.0 72.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7463.0 65.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7526.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7588.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7650.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7712.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7511.0 96.6 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7542.0 96.6 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7573.0 96.6 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7605.0 96.6 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7636.0 96.6 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7664.0 96.6 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7399.0 2.0 79.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7712.0 2.0 102.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 7712.0 65.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7748.0 -31.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7748.0 -65.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7830.0 -65.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7798.0 -65.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7766.0 -65.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7859.0 -65.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7790.0 96.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7890.0 96.0 83.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 7990.0 96.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8090.0 96.0 83.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8190.0 96.0 83.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8290.0 96.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8390.0 96.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 10						# モデル番号
+	POS = 8129.0 -31.0 63.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 8407.0 -60.0 96.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 8661.0 -60.0 96.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 8916.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 114.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = -139.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = -394.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 6162.0 0.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6039.0 105.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 5969.0 163.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6088.0 230.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 6173.0 230.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 9168.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 9423.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -332.0 4.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -332.0 130.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -332.0 257.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -332.0 383.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -395.0 2.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -395.0 127.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -395.0 251.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -395.0 379.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 9677.0 -60.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 7						# モデル番号
+	POS = 0.0 -5000.0 1800.0
+END_MODELSET
+
+MODELSET
+	INDEX = 10						# モデル番号
+	POS = 7881.0 -31.0 63.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 9986.0 -5064.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 10240.0 -5064.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 10493.0 -5064.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 10748.0 -5064.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10104.0 -5000.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10104.0 -4873.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10104.0 -4746.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10104.0 -4619.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10104.0 -4492.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10796.0 -5000.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10796.0 -4874.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10796.0 -4746.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10796.0 -4621.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 10796.0 -4494.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 11						# モデル番号
+	POS = 2847.0 4.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 2847.0 67.0 85.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 2909.0 67.0 85.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 2973.5 67.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 3038.0 67.0 85.0
+END_MODELSET
+
+MODELSET
+	INDEX = 3						# モデル番号
+	POS = 3038.0 131.0 85.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3681.0 319.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3648.0 227.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3486.0 209.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3350.0 266.0 85.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3350.0 298.0 85.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3350.0 330.0 85.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 3350.0 363.0 85.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = 6962.0 317.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8445.0 270.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8345.0 190.0 73.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8476.0 270.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8507.0 270.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 4						# モデル番号
+	POS = 8539.0 270.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -458.0 -123.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -458.0 2.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -458.0 127.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -458.0 251.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -458.0 379.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -521.0 -123.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -521.0 2.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -521.0 127.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -521.0 251.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -521.0 379.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -584.0 -123.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -584.0 2.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -584.0 127.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -584.0 251.0 -0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 12						# モデル番号
+	POS = -584.0 379.0 -0.0
+END_MODELSET
